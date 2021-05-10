@@ -3,15 +3,19 @@
 
 ## File information:
 
-Meta-Amplicon_Recipe.Rproj	The R Project file (open with Rstudio)
 
-README.md	This file
+|  File/Directory       	|  Contents                                                                                                                       	|
+|-----------------------	|--------------------------------------------------------------|
 
-workflow.sh	BASH script to run all R scripts in correct order
+Meta-Amplicon_Recipe.Rproj	|The R Project file (open with Rstudio)                        |
 
-data/	contains all raw and intermediate sequence data used in this workflow
+README.md	|This file                                                                     |
 
-metadata/	contains sample metadata 
+workflow.sh	|BASH script to run all R scripts in correct order                             |
+
+data/	|contains all raw and intermediate sequence data used in this workflow                 |
+
+metadata/	|contains sample metadata                                                      |
 	- Sample IDs
 	- Island
 	- Site
@@ -20,8 +24,8 @@ metadata/	contains sample metadata
 	- Status (healthy or impacted)
 	- Associated file names
 
-output/	contains intermediate files and figures
+output/	|contains intermediate files and figures                                                |
 
-scripts/	contains all R scripts for conducting analyses
+scripts/	|contains all R scripts for conducting analyses                                 |
 
-taxnomy/	contains RDP training database for assigning taxonomy to reads
+taxnomy/	|contains RDP training database for assigning taxonomy to reads                 |
